@@ -1,0 +1,19 @@
+{
+  "name": "mmm-metartaf",
+  "version": "1.0.0",
+  "description": "MagicMirror² module showing decoded METAR observations and TAF forecasts for any ICAO airport, with wind arrows and runway diagrams.",
+  "keywords": ["MagicMirror", "magicmirror-module", "METAR", "TAF", "aviation", "weather"],
+  "author": "PeanutToes6",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeanutToes6/MMM-MetarTaf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PeanutToes6/MMM-MetarTaf/issues"
+  },
+  "homepage": "https://github.com/PeanutToes6/MMM-MetarTaf#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
