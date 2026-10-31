@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/34222372/README.md)
 # MMM-MetarTaf
 
 ![MMM-MetarTaf screenshot](screenshot.png)
@@ -6,11 +7,15 @@ A [MagicMirror²](https://magicmirror.builders/) module that shows decoded METAR
 
 Data comes from the NOAA Aviation Weather Center Data API, which carries METARs and TAFs for stations worldwide. No API key required.
 
+> **AI disclosure:** this module was written with the help of an AI assistant (Claude, by Anthropic). See [AI disclosure](#ai-disclosure) below.
+
+**Status:** actively maintained.
+
 ## Install
 
 ```bash
 cd ~/MagicMirror/modules
-# copy this MMM-MetarTaf folder here
+git clone https://github.com/PeanutToes6/MMM-MetarTaf
 ```
 
 No `npm install` needed (uses Node's built-in `fetch`, so Node 18+).
@@ -84,6 +89,10 @@ Some large airports to try:
 
 - Weather: [NOAA Aviation Weather Center](https://aviationweather.gov/) Data API
 - Runways: [OurAirports](https://ourairports.com/data/) (public domain)
+
+## AI disclosure
+
+The code in this module was written by Claude, an AI assistant made by Anthropic, working from my instructions and feedback. I tested it on a real MagicMirror, and I published and maintain it. I am not a programmer, but I wanted to fill a niche in my MagicMirror, and AI made that possible for me. If you prefer not to use or support AI-assisted software, you are welcome to skip this module, and I understand.
 
 ## License
 
